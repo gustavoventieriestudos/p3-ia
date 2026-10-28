@@ -1,0 +1,112 @@
+{
+  "resumo": {
+    "n_teste": 100.0,
+    "media_real": 8.2994,
+    "media_prevista": 8.292453310471119,
+    "dp_real": 1.1848503464296,
+    "dp_previsto": 0.8919400558256924,
+    "media_erro": 0.006946689528879597,
+    "dp_erro": 0.6689812859288043,
+    "erro_padrao": 0.06689812859288044,
+    "ic95_media_erro": [
+      -0.1257937112545218,
+      0.13968709031228096
+    ],
+    "intervalo_previsao95_erro": [
+      -1.3042566308915768,
+      1.3181500099493362
+    ],
+    "pct_dentro_intervalo95": 92.0,
+    "pct_erro_ate_1": 88.0,
+    "pct_erro_ate_05": 61.0,
+    "shapiro_p": 0.022078884235777793,
+    "cv_r2_media": 0.6293511471703408,
+    "cv_r2_dp": 0.03314420634659617
+  },
+  "modelos": [
+    {
+      "modelo": "Regressão Linear",
+      "MAE": 0.498,
+      "RMSE": 0.666,
+      "R2": 0.681
+    },
+    {
+      "modelo": "Random Forest",
+      "MAE": 0.539,
+      "RMSE": 0.676,
+      "R2": 0.672
+    }
+  ],
+  "coef": {
+    "horas_estudo": 0.1154,
+    "frequencia": 0.0196,
+    "atividades_entregues": 0.0143,
+    "nota_anterior": 0.4106
+  },
+  "coef_padronizado": {
+    "horas_estudo": 0.443,
+    "frequencia": 0.228,
+    "atividades_entregues": 0.202,
+    "nota_anterior": 0.729
+  },
+  "intercepto": 1.9240123839215082,
+  "corr_com_nota": {
+    "horas_estudo": 0.375,
+    "frequencia": 0.192,
+    "atividades_entregues": 0.183,
+    "nota_anterior": 0.619,
+    "nota_final": 1.0
+  },
+  "desc": {
+    "horas_estudo": {
+      "count": 500.0,
+      "mean": 9.95,
+      "std": 3.84,
+      "min": 0.0,
+      "25%": 7.3,
+      "50%": 10.0,
+      "75%": 12.32,
+      "max": 21.7
+    },
+    "frequencia": {
+      "count": 500.0,
+      "mean": 81.17,
+      "std": 11.63,
+      "min": 40.0,
+      "25%": 73.32,
+      "50%": 82.1,
+      "75%": 89.18,
+      "max": 100.0
+    },
+    "atividades_entregues": {
+      "count": 500.0,
+      "mean": 79.29,
+      "std": 14.16,
+      "min": 35.7,
+      "25%": 70.07,
+      "50%": 80.0,
+      "75%": 89.82,
+      "max": 100.0
+    },
+    "nota_anterior": {
+      "count": 500.0,
+      "mean": 6.2,
+      "std": 1.77,
+      "min": 1.01,
+      "25%": 5.08,
+      "50%": 6.26,
+      "75%": 7.41,
+      "max": 10.0
+    },
+    "nota_final": {
+      "count": 500.0,
+      "mean": 8.34,
+      "std": 1.12,
+      "min": 5.3,
+      "25%": 7.5,
+      "50%": 8.41,
+      "75%": 9.21,
+      "max": 10.0
+    }
+  }
+}
